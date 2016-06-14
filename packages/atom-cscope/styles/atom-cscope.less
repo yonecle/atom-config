@@ -1,0 +1,96 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.atom-cscope {
+  height: 300px;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.atom-cscope .list-container {
+  position: relative;
+  height: 200px;
+}
+
+.atom-cscope ol {
+  margin: 0;
+}
+
+.atom-cscope li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.atom-cscope li span.code-line {
+  color: @text-color-highlight;
+}
+
+.atom-cscope li.selected {
+  background: @background-color-selected;
+}
+
+.atom-cscope ol#result-container {
+  overflow: scroll;
+  height: 200px;
+  margin: 10px 0;
+  padding-right: 10px;
+}
+
+.atom-cscope-input #form-container {
+  display: flex;
+  width: 100%;
+}
+
+.atom-cscope .header, .atom-cscope-input #form-container {
+  padding: 0 20px;
+}
+
+.atom-cscope-input #form-container atom-text-editor {
+  flex-grow: 2;
+  flex-basis: 100px;
+  margin: 0 10px;
+}
+
+.atom-cscope-input button#search::before {
+  font-size: 12px;
+}
+
+.atom-cscope-input #form-container select {
+  flex-basis: 100px;
+  max-width: 200px;
+  flex-grow: 2;
+  background: @app-background-color;
+  border: 1px @background-color-highlight solid;
+  border-radius: 2px;
+}
+
+.atom-cscope-input #form-container button {
+  flex-basis: 100px;
+}
+
+.header .loading {
+  transition: all .3s ease .15s;
+}
+
+.no-show {
+  opacity: 0;
+}
+
+span.gap {
+   margin: 0 5px;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+.btn.just-btn::before {
+  margin-right: 0!important;
+}
+
+.spaced-item {
+  margin: 5px 10px 5px 0;
+}

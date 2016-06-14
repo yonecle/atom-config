@@ -1,0 +1,58 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle atom-cscope'
+      'command': 'atom-cscope:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-cscope'
+      'submenu': [
+        {
+          'label': 'Toggle Widget'
+          'command': 'atom-cscope:toggle'
+        },
+        {
+          'label': 'Find symbol under cursor/selection'
+          'command': 'atom-cscope:find-symbol'
+        },
+        {
+          'label': 'Find definition under cursor/selection'
+          'command': 'atom-cscope:find-global-definition'
+        },
+        {
+          'label': 'Find functions called by function under cursor/selection'
+          'command': 'atom-cscope:find-functions-called-by'
+        },
+        {
+          'label': 'Find functions calling function under cursor/selection'
+          'command': 'atom-cscope:find-functions-calling'
+        },
+        {
+          'label': 'Find text string under cursor/selection'
+          'command': 'atom-cscope:find-text-string'
+        },
+        {
+          'label': 'Find egrep pattern under cursor/selection'
+          'command': 'atom-cscope:find-egrep-pattern'
+        },
+        {
+          'label': 'Find the file under cursor/selection'
+          'command': 'atom-cscope:find-file'
+        },
+        {
+          'label': 'Find files including word under cursor/selection'
+          'command': 'atom-cscope:find-files-including'
+        },
+        {
+          'label': 'Find assignments to variable under cursor/selection'
+          'command': 'atom-cscope:find-assignments-to'
+        }
+      ]
+    ]
+  }
+]
