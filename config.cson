@@ -5,7 +5,11 @@
   core:
     disabledPackages: [
       "symbols-view"
+      "haskell-pointfree"
+      "ide-haskell-cabal"
     ]
+  editor:
+    fontSize: 20
   "exception-reporting":
     userId: "808de652-8699-eb1b-8ca1-b3dc97387b8b"
   welcome:
