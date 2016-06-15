@@ -1,5 +1,6 @@
 "*":
   "atom-cscope":
+    LiveSearch: false
     WidgetLocation: "bottom"
     cscopeSourceFiles: ".c .cc .cpp .h .hpp .java"
   core:
