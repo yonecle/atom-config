@@ -9,9 +9,16 @@
       "haskell-pointfree"
       "ide-haskell-cabal"
     ]
+    packagesWithKeymapsDisabled: []
   editor:
-    fontSize: 20
+    fontSize: 17
   "exception-reporting":
     userId: "808de652-8699-eb1b-8ca1-b3dc97387b8b"
+  "terminal-plus":
+    core: {}
+    toggles:
+      autoClose: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
